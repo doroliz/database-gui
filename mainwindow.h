@@ -40,7 +40,8 @@ private slots:
 private:
     Ui::MainWindow *ui;
     //формирование модели
-    void setupModel(const QString &tableName, const QStringList &headers);
+    //void setupModel(const QString &tableName, const QStringList &headers);
+    void setupModel(const QString &tableName);
     //формирование внешнего вида таблицы
     void createUI();
 };
